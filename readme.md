@@ -9,9 +9,8 @@ If you
 then, this template is what you need.
 
 ## Usage
-This part is the same as Japanese tex template, which require `ptex2pdf` to compile. 
-
-If you are using **VSCode** with **LaTeX Workshop**, you can add the following settings in your `settings.json` file.
+### VSCode with LaTeX Workshop
+This part is the same as Japanese tex template, which requires `ptex2pdf` to compile. You can add the following settings in your `settings.json` file.
 ```
 "latex-workshop.latex.tools": [
     {
@@ -45,6 +44,11 @@ If you are using **VSCode** with **LaTeX Workshop**, you can add the following s
     }
 ],
 ```
+
+### Overleaf
+If you want to use overleaf, the `latexmkrc` file is required. 
+
+Ypu can see the template via this [link](https://www.overleaf.com/read/rsqzmxqkcwjg).
 
 ## Acknowledgement
 On the official [website](https://www.ieice.org/jpn/kenkyuukai/shorui.html), only Japanese tex template is provided, as well as other formats (e.g., `*.docx`). 
