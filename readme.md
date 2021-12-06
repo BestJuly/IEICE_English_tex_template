@@ -1,4 +1,13 @@
+[TOC]
+
 # English-only tex template for IEICE conferences
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Usage](#usage)
+  * [VSCode with LaTeX Workshop](#vscode-with-latex-workshop)
+  * [Overleaf](#overleaf)
+- [Acknowledgement](#acknowledgement)
 
 ## Introduction
 This is an English-only tex template for IEICE conferecens, such as IE, MVE, etc.
@@ -48,7 +57,7 @@ This part is the same as Japanese tex template, which requires `ptex2pdf` to com
 ### Overleaf
 If you want to use overleaf, the `latexmkrc` file is required. 
 
-Ypu can see the template via this [link](https://www.overleaf.com/read/rsqzmxqkcwjg).
+You can see the template via this [link](https://www.overleaf.com/read/rsqzmxqkcwjg).
 
 ## Acknowledgement
 On the official [website](https://www.ieice.org/jpn/kenkyuukai/shorui.html), only Japanese tex template is provided, as well as other formats (e.g., `*.docx`). 
