@@ -1,5 +1,3 @@
-[TOC]
-
 # English-only tex template for IEICE conferences
 
 ## Table of Contents
