@@ -1,0 +1,66 @@
+\documentclass[technicalreport, dvipdfmx]{ieicej_en}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{latexsym}
+\usepackage{enumitem}
+
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{amsmath,amssymb,bm} %いろいろ数式使えるようにする
+\usepackage{float}  %画像を指定したとおりの位置に貼る
+\usepackage{url}
+\usepackage[stable]{footmisc}
+\usepackage{subfig}
+\usepackage{cite}
+%\usepackage{tabularx}
+\usepackage{verbatim}
+
+% added library
+\usepackage{multirow}
+
+\usepackage{caption}
+\captionsetup[figure]{font=small}
+
+\renewcommand{\thefootnote}{\arabic{footnote}}
+
+\graphicspath{image/} %画像を別ディレクトリにまとめる
+
+\etitle{Title for Your IEICE Paper}
+%\esubtitle{}
+\authorlist{%
+ \authorentry[author1@mail.address1]{author1}{author1}{affiliate1}
+ \authorentry[author2@mail.address2]{author2}{author2}{affiliate2}
+ \authorentry[author3@mail.address1]{author3}{author3}{affiliate1}
+	% \authorentry[メールアドレス]{和文著者名}{英文著者名}{所属ラベル}
+}
+\affiliate[UT]{The University of Tokyo\\7-3-1 Hongo, Bunkyo-ku, Tokyo, Japan}{The University of Tokyo\\7-3-1 Hongo, Bunkyo-ku, Tokyo, Japan}
+\affiliate[CyberAgent]{CyberAgent, Inc.\\40-1 Udagawacho, Shibuya City, Tokyo, Japan}{CyberAgent, Inc.\\40-1 Udagawacho, Shibuya City, Tokyo, Japan}
+%\affiliate[所属ラベル]{和文勤務先\\ 連絡先住所}{英文勤務先\\ 英文連絡先住所}
+
+\begin{document}
+
+
+\begin{eabstract}
+Recently, pretext task-based methods are proposed one after another in self-supervised video feature learning. Contrastive learning-based methods also yield good performance. In this paper, we propose a framework which can easily combine pretext task-based method and contrastive learning-based method together. With some data strategies, huge improvements over the baselines can be achieved, indicating that a joint optimization framework can boost both pretext task and contrastive learning. We also show some analyses towards the potential mechanism behind it. It is convenient to treat our training framework as a standard training strategy and apply it to many other works in self-supervised video feature learning.
+\end{eabstract}
+\begin{ekeyword}
+Video representation, self-supervised learning, pretext task, contrastive learning
+\end{ekeyword}
+\maketitle
+
+
+\section{Introduction}
+Here is the content of your paper.
+Here is one sentence which uses citations~\cite{tao2020self}.
+	
+%\newline
+
+\ack %% 謝辞
+Here is the acknowledgement.
+
+
+\bibliographystyle{sieicej}
+\bibliography{egbib}
+
+	
+\end{document}
